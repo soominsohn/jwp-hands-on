@@ -18,6 +18,7 @@ public class UserService {
 
     @Transactional
     public User findById(final long id) {
+        System.out.println("들어왔어용~");
         return userDao.findById(id);
     }
 
